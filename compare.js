@@ -19,7 +19,7 @@ export function compare(source, copy) {
     console.log('elements in the same order', joinNames(els1) === joinNames(els2));
     console.log('elements have the same text', joinText(els1) === joinText(els2));
 
-    // const tnodes1 = allTextNodes(source);
-    // const tnodes2 = allTextNodes(copy);
-    // console.log('same text in text nodes', joinTextOfTextNodes(tnodes1) === joinTextOfTextNodes(tnodes2));
+    const tnodes1 = allTextNodes(source);
+    const tnodes2 = allTextNodes(copy);
+    console.log('same text in text nodes', joinTextOfTextNodes(tnodes1) === joinTextOfTextNodes(tnodes2));
 }

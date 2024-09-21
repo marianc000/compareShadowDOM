@@ -1,3 +1,5 @@
+// distributed.js
+
 export function allChildNodes(parent) {
     let children = [];
 
